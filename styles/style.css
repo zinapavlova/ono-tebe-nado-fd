@@ -16,6 +16,9 @@ html, body {
     flex-direction: row;
     gap: 32px;    
     list-style: circle;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
 }
 
 .header__links-list-item_no-bullit {
@@ -251,8 +254,8 @@ html, body {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin: 106px 0 102px 0;
-    line-height: 100%;
+    margin: 101px 0 98px 0;
+    line-height: 120%;
 }
 
 .about__text {
@@ -264,6 +267,7 @@ html, body {
 .about__text p {
     font-size: 20px;
     line-height: 24px;
+    line-height: 120%;
 }
 
 .about__text-margin {
@@ -293,7 +297,7 @@ html, body {
 .footer__menu-list {
     display: block;
     list-style: none;  
-    text-align: center;    
+    text-align: center;      
 }
 
 .footer__menu-link {    
