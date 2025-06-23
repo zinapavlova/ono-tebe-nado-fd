@@ -30,7 +30,7 @@ html, body {
     line-height: 100%;
 }
 
-.header__link_active .header__link {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -59,6 +59,7 @@ html, body {
     background-size: cover;
     position: relative; 
     background-position: center center;
+    min-height: 757px;
 }
 
 .overlay {
@@ -70,8 +71,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.6);    
 }
 
-.cover__title {
-    display: block;   
+.cover__title {   
     color: #fff;
     font-weight: 700;
     font-size: 100px;
@@ -123,7 +123,6 @@ html, body {
 }
 
 .bet-button {
-    display: block;
     background: transparent;
     border: 1px solid #fff;
     color: #fff;   
@@ -142,9 +141,7 @@ html, body {
 }
 
 .lots__heading {
-    display: block;
     width: 100%;
-    height: 47px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -251,7 +248,6 @@ html, body {
 }
 
 .about__title {
-    display: block;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -272,7 +268,8 @@ html, body {
 }
 
 .about__text-margin {
-    width: 688px;
+    width: 100%;
+    max-width: 688px;
     margin-bottom: 24px;
 }
 
@@ -285,13 +282,13 @@ html, body {
 }
 
 .footer__address {
-    max-width: 264.573486328125px;
+    max-width: 265px;
     justify-self: start;
     line-height: 24.2px;
 }
 
 .footer__menu {
-    max-width: 163.89999389648438px;
+    max-width: 164px;
     justify-self: center;
 }
 
