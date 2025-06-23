@@ -27,8 +27,9 @@
 }
 
 .header__logo {
-    display: block;
+    display: flex;
     width: 148px;
+    height: 105px;
 }
 
 .address {
@@ -43,12 +44,11 @@
     justify-self: end;
 }
 
-.cover {
+.cover {    
     padding: 165px 50px 50px; 
     margin-bottom: 180px;   
     background: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    background-repeat: no-repeat;   
     background-size: cover;
     position: relative; 
 }
@@ -62,15 +62,16 @@
     background-color: rgba(0, 0, 0, 0.6);    
 }
 
-.cover__title {    
+.cover__title {
+    display: block;   
     color: #fff;
     font-weight: 700;
     font-size: 100px;
-    line-height: 114.99999999999999%;
+    line-height: 115%;
     text-transform: uppercase;
     letter-spacing: 0.3em;
     margin-block-start: 0;
-    margin-block-end: 0;    
+    margin-block-end: 0;        
     position: relative;
     z-index: 2;
 }
@@ -82,6 +83,7 @@
 .aligned-text_center {
     display: block;
     text-align: center;
+    margin: 20px 0;
 }
 
 .aligned-text_right {
@@ -98,7 +100,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 118px;
+    margin-top: 106px;
     position: relative;
     z-index: 2;
 }
@@ -113,6 +115,7 @@
 }
 
 .bet-button {
+    display: block;
     background: transparent;
     border: 1px solid #fff;
     color: #fff;    
@@ -122,6 +125,7 @@
     padding: 10px 30px;    
     margin-left: 20px;
     white-space: nowrap;
+    height: 51px;
 }
 
 .lots {
@@ -188,8 +192,7 @@
     z-index: 1;
 }
 
-.card__text {
-    font-weight: 400;
+.card__text {    
     font-size: 20px;
     line-height: 120%;
     color: #fff;
@@ -203,20 +206,14 @@
     margin-left: 40px;
 }
 
-.about {
-    padding: 35px 0 13px 47px; 
-    margin: 0 24px 180px;   
-}
-
-.about {
-    padding: 35px 0 13px 47px;
+.about {    
     margin: 0 24px 180px;
+    padding: 35px 0 0 47px;
 }
 
 .about__grid {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 25px;
 }
 
 .about__logo {
@@ -226,7 +223,7 @@
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .about__logo-image {
@@ -235,6 +232,7 @@
 }
 
 .about__title {
+    font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
     margin: 101px 0 100px 0;
@@ -249,8 +247,11 @@
 
 .about__text p {
     font-size: 20px;
-    line-height: 120%;
-    margin: 0 0 24px 0;
+    line-height: 24px;
+}
+
+.about__text-margin {
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -264,6 +265,7 @@
 .footer__address {
     max-width: 264.573486328125px;
     justify-self: start;
+    line-height: 24.2px;
 }
 
 .footer__menu {
