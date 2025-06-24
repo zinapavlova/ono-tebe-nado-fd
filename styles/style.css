@@ -1,6 +1,5 @@
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .header {
@@ -57,7 +56,6 @@ html, body {
     background-size: cover;
     position: relative; 
     background-position: center center;
-    min-height: 757px;
 }
 
 .overlay {
@@ -122,7 +120,7 @@ html, body {
 
 .bet-button {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid currentColor;
     color: #fff;   
     font-weight: 500; 
     font-size: 22px;
@@ -206,8 +204,6 @@ html, body {
 }
 
 .lots__look-more-link {
-    display: block;
-    min-height: 25px;
     font-size: 20px;
     margin-left: 40px;
 }
@@ -215,7 +211,6 @@ html, body {
 .about {    
     margin: 0 24px 180px;
     padding: 35px 0 0 0;
-    min-height: 595px;
 }
 
 .about__grid {
@@ -277,7 +272,6 @@ html, body {
     align-items: start;   
     justify-content: space-between;
     padding: 0 50px 82px 50px;   
-    min-height: 180px;
 }
 
 .footer__address {
